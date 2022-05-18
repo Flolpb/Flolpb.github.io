@@ -45,18 +45,24 @@
             <h2>Déploiement</h2>
             <p>On a réussi à déployer notre site en passant par Firebase car ils offrent le choix d'héberger plusieurs sites webs 
                 sur un seul projet Firebase tout en restant gratuit dans leur offre. On a donc opter pour un déploiement dans le cloud.
+                Contrairement à une solution où l'on doit faire la gestion de serveurs, gérer les différentes dépendances etc..
             </p>
             <hr />
             <h2>Paradigmes</h2>
-            <p>Un des paradigmes exploités lors de ce tp est celui de la collaboration entre la partie développement et la partie obs.
-                Le deuxième paradigme majeur est celui de l'automatisation par le biais du CI/CD et un des autres paradigmes c'est celui du testing
-                et du reviewing de code qui permet de conserver une qualité de service et de détecter les failles eventuelles du projet.
+            <p>Un des paradigmes exploités lors de ce tp est celui de la collaboration entre la partie développement et la partie OBS car on
+                passe des fichiers de l'application à une version déployée sur un serveur, ce qui était fait par les deux entités 
+                par le modèle précédant celui du DEVOPS.
+                Le deuxième paradigme majeur est celui de l'automatisation par le biais du CI/CD; la solution que nous avons retenu
+                pour mettre en place l'automatisation est celle de Github Action ainsi que le reste de la solution GitOPS proposé.
+                Un des autres paradigmes c'est celui du testing et du reviewing de code qui permet de conserver une qualité de service 
+                et de détecter les failles eventuelles du projet.
             </p>
             <hr />
             <h2>Etat de l'art</h2>
-            <p>Une pipeline DEVOPS permet d'intégrer le code pour ensuite lancer une phase de test pour ce dernier et ensuite le délivrer
+            <p>Une pipeline DEVOPS permet d'intégrer le code pour ensuite lancer une phase de test sur celui ci et ensuite le délivrer
                  (déployer + publier).
-                On peut avoir des pipelines seulement pour le test, et d'autres qui délivrent donc déploient et publient l'application automatiquement.</p>
+                On peut avoir des pipelines seulement pour le test, et d'autres qui vont en plus délivrer donc déployer sur serveurs et 
+                publier sur des gestionnaires de packages automatiquement. Nous avons choisi le gestionnaire de packages npm pour notre part.</p>
         </div>
     </div>
   </body>
