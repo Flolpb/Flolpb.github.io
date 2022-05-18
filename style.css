@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    margin: 0 0;
+    
+}
+p{
+    font-size: 1.5rem;
+}
+
+.tests, .difficulte{
+    width: 70vw;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    color: rgb(0, 4, 117);
+}
